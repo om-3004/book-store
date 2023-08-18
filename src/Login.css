@@ -1,0 +1,72 @@
+.login-page {
+    padding-top: 30px;
+}
+
+.head-login {
+    position: relative;
+    /* left: 47%; */
+    font-size: 32px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #414141;
+}
+
+.home-login-home {
+    position: relative;
+    left: 46%;
+    color: rgba(71, 70, 70, 0.614);
+}
+
+.home-login-login {
+    position: relative;
+    left: 46.5%;
+    color: #f14d55b4;
+}
+
+.signup-in-box {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.new-customer {}
+
+.customer-heading {
+    font-size: 20px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #414141;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.registered-customer {}
+
+.sign-up-in-title {
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #838383;
+    position: relative;
+}
+
+.register-customer-way {
+    font-size: 15px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212121;
+
+    position: relative;
+}
+
+.textfield-style {}
+
+.input-field {
+    position: relative;
+
+    /* padding: 20px; */
+}
+
+.err-msg {
+    color: red;
+}

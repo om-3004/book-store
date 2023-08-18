@@ -1,0 +1,78 @@
+.Card{
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 40px;
+    background-color: white;
+    text-align: center;
+    width: 250px;
+    /* height: 550px; */
+    box-shadow: 10px 10px 10px -6px #777;
+    margin-bottom: 15px;
+    display: block;
+    /* margin-top: 25px; */
+}
+.card_img{
+width: 250px;
+height: 200px;
+border-radius: 10px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+}
+.card-info{
+
+}
+.card-category{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #646363;
+}
+.card-title{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    /* font-weight: bold; */
+    font-size: 23px;
+    color: rgb(73, 73, 73);
+    height: 70px;
+    margin: 5px;
+
+}
+.card-description{
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 16px;
+    height: 20px;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+}
+.card-price{
+    margin: 20px 0;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #777;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 100;
+}
+.card-button{
+    /* height: 30px; */
+    width: 90%;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 15px;
+    border-width: 0px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: white;
+    padding: 10px;
+    background-color: #f14d54;
+    cursor: pointer;
+    
+    
+}
+.card-button:hover{
+    background-color: red;
+}

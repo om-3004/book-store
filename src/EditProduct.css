@@ -1,0 +1,41 @@
+.error{
+    color:red;
+  }
+  
+  #heading{
+    /* border: 1px solid black; */
+    margin: autos;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+  
+  .GridContainer{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-column-end: span;
+    grid-template-columns: auto auto;
+    row-gap: 5vh;
+    column-gap: 5%;
+    justify-content: center;
+    margin-top: 50px;
+  
+  }
+  .heading-below-line{
+    position: relative;
+    top: -30px;
+    width: 25vh;
+    height: 1.5px;
+    background-color: #f14d54;
+  }
+  
+  .itemContainer{
+    /* border: 1px solid black; */
+    width: 30vw;
+    font-size: 15px;
+    /* height: 70px; */
+  
+  }
+  

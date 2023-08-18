@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .navbar{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.form-demo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 15px;
+  padding: 10px;
+  margin-top: 5%;
+}
+.Text{
+  width: 30% !important;
+} */
+.top-navbar1 {
+  background-color: white;
+  height: 92px;
+  /* position: ; */
+  top: 0;
+
+}
+
+.logo-style {
+  position: relative;
+  top: 0;
+  left: 5%;
+  height: 90px;
+
+}
+
+.nav1-links {
+  float: right;
+  position: relative;
+  top: 20px;
+  right: 10%;
+
+
+}
+
+.top-navbar2 {
+  position: relative;
+  top: 0;
+  height: 60px;
+  padding-left: 30%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #f4f4f4;
+}
+
+.bottom-navbar {
+  height: 70px;
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  background-color: #f4f4f4;
+}
+
+.link-style {
+  text-decoration: none;
+  font: 14px;
+  color: #f14d54;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 15px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.link-style:hover {
+  background-color: #f14d54;
+  color: white;
+}
+
+.search-res-div {
+  background-color: #FFFFFF;
+  /* overflow: hidden; */
+
+  /* backgroundColor:"#FFFBF5"; */
+}
+
+.search-res-div:hover {
+  background-color: #f0f0f0dc;
+}
+
+.cart-nav-btn {
+  display: flex-box;
+  /* height: 100; */
+  width: 100px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 0.5px;
+  font-size: medium;
+  padding: 10px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.cart-nav-btn:hover {
+  cursor: pointer;
+  background-color: rgb(209, 209, 209);
+}
+
+.bottom-logo-style {
+  height: 50px;
+  position: relative;
+  left: 43%;
+  /* justify-items: center; */
+  top: 20%;
+}

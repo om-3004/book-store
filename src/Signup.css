@@ -1,0 +1,36 @@
+  .error{
+    color:red;
+  }
+  
+  #heading{
+    /* border: 1px solid black; */
+    margin: autos;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    justify-content: center;
+    color: #414141;
+    /* font-size: 22px; */
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .GridContainer{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-column-end: span;
+    grid-template-columns: auto auto;
+    row-gap: 5vh;
+    column-gap: 5%;
+    justify-content: center;
+    margin-top: 10px;
+  
+  }
+  
+  .itemContainer{
+    /* border: 1px solid black; */
+    width: 30vw;
+    font-size: 15px;
+    /* height: 70px; */
+  
+  }
+  

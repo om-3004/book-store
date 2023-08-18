@@ -1,0 +1,169 @@
+.cart-page-wrapper {
+    font-family: "Roboto";
+  
+    /* border: 2px solid black; */
+  }
+  #heading{
+    /* border: 1px solid black; */
+    margin: autos;
+    margin-bottom: 15px;
+    color: #414141;
+    /* font-size: 32px; */
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    row-gap:10;
+}
+  .cart-page-subheading {
+    /* border:2px solid blue ; */
+    display: flex;
+    width: 43%;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    font-size: medium;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+  }
+  
+  .cart-page-card-wrapper {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    box-sizing: border-box;
+  }
+  .cart-card {
+    border: 0.5px solid rgb(169, 169, 167);
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    height: max-content;
+    margin: auto;
+    box-shadow: 0px 1px 5px 5px rgb(232, 232, 232);
+  }
+  .left-content {
+    /* border: 2px solid aquamarine; */
+    align-items: center;
+    margin-left: 10px;
+  }
+  .img-wrapper {
+    /* width: 10em;
+    height: 15em; */
+    margin: 1.5em 0px -1em 0px;
+    /* object-fit: contain; */
+  }
+  .book-image {
+    /* object-fit: cover; */
+    /* border: 2px solid red; */
+  
+    max-width: 150px;
+    max-height: 100px;
+    /* width: 10em;
+    height: 12em; */
+  }
+  .content-wrapper {
+    /* border: 2px solid darkblue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-arousnd; */
+    width: 80%;
+    height: 10em;
+  }
+  .card-content-top {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    /* width: 100%; */
+    height: 50%;
+    margin: 10px;
+  }
+  .book-name {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .book-author {
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0px 0px 10px;
+    color: #f14d54;
+  }
+  .book-price {
+    font-weight: 700;
+  }
+  .card-content-bottom {
+    /* border: 2px solid rgb(144, 152, 144); */
+    display: flex;
+    height: 30%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    margin: 10px;
+  }
+  .quantity-group {
+    display: flex;
+    width: 10%;
+    column-gap: 10px;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 0px;
+  }
+  .qty-button {
+    background-color: #f14d54;
+    text-align: center;
+    border-width: 0px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    height: 22px;
+    width: 22px;
+    cursor:pointer
+  }
+  .qty-button:hover{
+    background-color: red;
+  }
+  .qty-count {
+    border: 1px solid rgb(161, 161, 161);
+    font-size: 17px;
+    height: 22px;
+    padding: 0% 10%;
+    width: 22px;
+    text-align: center;
+  }
+  .remove {
+    color: #f14d54;
+  }
+  .place-order{
+    position: relative;
+  }
+  .place-order-btn{
+    background-color: #F14d54;
+    color: white;
+    height: 45px;
+    /* width: 134px; */
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    border-width: 0px;
+    margin-top: 25px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+  .place-order-btn:hover{
+    background-color: red;
+  }
